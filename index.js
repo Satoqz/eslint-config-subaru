@@ -1,9 +1,5 @@
 module.exports = {
 	"parser": "@typescript-eslint/parser",
-	"extends": [
-		"plugin:@typescript-eslint/recommended",
-		"plugin:@typescript-eslint/recommended-requiring-type-checking"
-	],
 	"parserOptions": {
 		"ecmaVersion": 2019,
 		"sourceType": "module",
@@ -13,7 +9,6 @@ module.exports = {
 		"@typescript-eslint"
 	],
 	"rules": {
-		"@typescript-eslint/class-name-casing": "error",
 		"@typescript-eslint/semi": "error",
 		"no-throw-literal": "error",
 		"indent": [
@@ -40,9 +35,9 @@ module.exports = {
 			1,
 			"never"
 		],
-		"space-after-keywords": [
+		"keyword-spacing": [
 			1,
-			"never"
+			{ "overrides": { "if": { "after": false }, "for": { "after": false }, "while": { "after": false } } }
 		],
 		"no-trailing-spaces": 1,
 		"no-var": 2,
