@@ -5,12 +5,7 @@ module.exports = {
 		"sourceType": "module",
 		"impliedStrict": true
 	},
-	"plugins": [
-		"@typescript-eslint"
-	],
 	"rules": {
-		"@typescript-eslint/semi": "error",
-		"no-throw-literal": "error",
 		"indent": [
 			1,
 			"tab"
@@ -37,15 +32,15 @@ module.exports = {
 		],
 		"keyword-spacing": [
 			1,
-			{ "overrides": { "if": { "after": false }, "for": { "after": false }, "while": { "after": false } } }
+			{ "overrides": { "if": { "after": true }, "for": { "after": true }, "while": { "after": true } } }
+		],
+		"brace-style": [
+			1,
+			"allman"
 		],
 		"no-trailing-spaces": 1,
 		"no-var": 2,
 		"prefer-const": 1,
 		"prefer-arrow-callback": 1,
-		"brace-style": [
-			1,
-			"allman"
-		]
 	}
 };
