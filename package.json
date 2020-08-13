@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-subaru",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "eslint shareable config",
   "main": "config.js",
   "scripts": {
