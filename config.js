@@ -38,6 +38,14 @@ module.exports = {
 			1,
 			"allman"
 		],
+		"max-len": [
+			1,
+			{
+				"code": 80,
+				"tabWidth": 0,
+				"ignoreComments": true
+			}
+		],
 		"no-trailing-spaces": 1,
 		"no-var": 2,
 		"prefer-const": 1,
