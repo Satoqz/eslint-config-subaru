@@ -43,7 +43,11 @@ module.exports = {
 			{
 				"code": 80,
 				"tabWidth": 0,
-				"ignoreComments": true
+				"comments:": 120,
+				"ignoreUrls": true,
+				"ignoreStrings": true,
+				"ignoreTemplateLiterals": true,
+				"ignoreRegExpLiterals": true
 			}
 		],
 		"no-trailing-spaces": 1,
