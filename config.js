@@ -41,10 +41,10 @@ module.exports = {
 		"max-len": [
 			1,
 			{
-				"code": 80,
+				"code": 100,
 				"tabWidth": 0,
-				"comments:": 120,
 				"ignoreUrls": true,
+				"ignoreComments": true,
 				"ignoreStrings": true,
 				"ignoreTemplateLiterals": true,
 				"ignoreRegExpLiterals": true
