@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Satoqz/eslint-config-subaru#readme",
   "dependencies": {
-    "@typescript-eslint/parser": "^3.7.1"
+    "@typescript-eslint/parser": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^7.6.0"
