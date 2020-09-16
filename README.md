@@ -3,7 +3,7 @@
 
 ## Setup
 `npm i -D eslint eslint-config-subaru`
-<br>
+<br><br>
 `package.json`:
 ```json
   {  
