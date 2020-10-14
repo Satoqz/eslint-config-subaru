@@ -6,9 +6,9 @@
 <br><br>
 `package.json`:
 ```json
-  {  
+{
   "eslintConfig": {
-      "extends": "subaru"
-  } 
+    "extends": "subaru"
+  }
 }
 ```
